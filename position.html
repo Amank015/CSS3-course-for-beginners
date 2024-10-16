@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion-property</title>
+</head>
+<style>
+    div
+    {
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        border: 2px solid black;
+        display: inline-block;
+    }
+    #box1
+    {
+        position:static;
+    
+    }
+    #box2
+    {
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    #box3
+    {
+        position: absolute;
+        
+
+    }
+    #box4
+    {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+       
+    }
+    #box5
+    {
+        position: sticky;
+        top: 0;
+    }
+</style>
+<body>
+    <h1>Position playground</h1>
+    <div id="box4" style="background-color: darkmagenta;">box4</div>
+    
+   
+    <div id="box1" style="background-color: brown;">box1</div>
+    <div id="box2" style="background-color: aquamarine;">box2</div>
+    <div id="box3" style="background-color: coral;">box3</div>
+    <div id="box5" style="background-color: blanchedalmond;">box5</div>
+   
+  
+</body>
+</html>
